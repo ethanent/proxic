@@ -1,0 +1,18 @@
+// HTTP request
+
+def req_request private
+string method
+string url
+map headers key=string;value=string
+buffer body
+varint timeout
+
+def res_request private
+string error
+buffer body
+map headers key=string;value=string
+varint statusCode
+
+exchange request
+request req_request
+response res_request

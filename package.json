@@ -1,0 +1,25 @@
+{
+  "name": "proxic",
+  "version": "1.0.0",
+  "description": "HTTP proxy server via binary protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanent/proxic.git"
+  },
+  "keywords": [],
+  "author": "Ethan Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethanent/proxic/issues"
+  },
+  "homepage": "https://github.com/ethanent/proxic",
+  "dependencies": {
+    "centra": "^2.4.0",
+    "protocore": "^4.0.0"
+  }
+}
